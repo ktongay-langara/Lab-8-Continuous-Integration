@@ -1,0 +1,23 @@
+{
+  "name": "formatter",
+  "version": "0.0.1",
+  "description": "Automated test using Jest",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "jest",
+    "test-coverage": "npm test -- --coverage"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "jest",
+    "formatter",
+    "node"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
